@@ -10,6 +10,9 @@ alias gits='git status'
 alias gita='git add'
 alias gitp='git pull'
 
+#ssh aliases
+alias pie='ssh pi@192.168.1.61'
+
 # misc
 alias c='clear'
 alias q='exit'
