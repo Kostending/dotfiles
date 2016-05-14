@@ -19,7 +19,7 @@ nbproject
 *.lo
 *.o
 *.so
-.*.d
+#.*.d # f.eks. .emacs.d
 .\#*
 .dotest
 .gdb_history
