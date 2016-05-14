@@ -1,0 +1,11 @@
+#!/bin/bash
+
+url="http://cs.au.dk/~svendcs/garbage/"
+
+if [[ -z "$1" ]]; then
+    curl -s $url
+else
+    curl -s $url > /tmp/garbage.jpg
+    convert /tmp/garbage.jpg $1
+fi
+

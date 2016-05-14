@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+# assign input from either $1 or stdin to $input
+[ $# -ge 1 -a -f "$1" ] && input="$1" || input="-"
+
+# construct tmp path
+n=$(date +%s);
+p="$TMPDIR$n.pdf";
+
+# save as tmp pdf and open
+cat "$input" | dot -Tpdf > "$p";
+open "$p";

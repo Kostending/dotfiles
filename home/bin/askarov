@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# wget -q -O- http://dovs.askarov.net/ --post-data "irtree=$(< out/$1.frag)" | grep '^[0-9]*[0-9]$'
+wget -q -O- http://dovs.askarov.net/ --post-data "irtree=$(< $1)" | grep '^[0-9]*[0-9]$'
