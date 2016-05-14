@@ -14,7 +14,9 @@ Then link the dotfiles using the following commands:
 # Screenshots
 
 Blank terminal:
+
 ![](http://imgur.com/UZVLqcq.png)
 
 Terminal in emacs(with oh-my-emacs):
+
 ![](http://imgur.com/oKL2ehU.png)
