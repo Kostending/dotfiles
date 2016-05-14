@@ -45,4 +45,5 @@ log/*.log
 tmp/**/*  
 Procfile.simon
 *.sublime-workspace
-
+.emacs.d/.cache/
+.emacs.d/elpa/
