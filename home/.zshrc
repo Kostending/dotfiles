@@ -22,3 +22,6 @@ done
 plugins=(git tmuxinator)
 source $ZSH/oh-my-zsh.sh
 
+export NXJ_HOME="/Users/Kostending/Library/leJOS_NXJ"
+export LEJOS_NXT_JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home"
+export PATH="$NXJ_HOME/bin:$PATH"
