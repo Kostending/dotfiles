@@ -13,6 +13,8 @@ Then link the dotfiles using the following commands:
 
 First time launching emacs, will take some time.
 
+On mac i suggest installing iTerm2, and on linux Guake.
+
 # Screenshots
 
 Blank terminal:
