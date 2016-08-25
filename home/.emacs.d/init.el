@@ -28,3 +28,6 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+;; Own additions
+(setq js-indent-level 2)
